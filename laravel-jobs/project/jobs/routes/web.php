@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\NotificationController;
