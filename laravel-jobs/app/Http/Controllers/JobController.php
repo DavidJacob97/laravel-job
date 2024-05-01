@@ -20,7 +20,7 @@ class JobController extends Controller{
         // customers array adding none
         $customers_array =  Customer::query()->where('status', 'Enabled')->pluck('name', 'id')->toArray();
 
-        $customers_array = [0=>'None', null => 'All']+ $customers_array;
+        $customers_array = [0=>'None', null => 'All'] + $customers_array;
 
         //status array
          $status_array = [
